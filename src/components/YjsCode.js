@@ -12,7 +12,7 @@ require("y-websockets-client")(Y);
 
 var io = Y["websockets-client"].io; //need to get this.....
 
-var link = "http://localhost:1234"; //this link is set in my .env file, which is hidden from github
+var link = "https://codemirror-beck.herokuapp.com/"; //this link is set in my .env file, which is hidden from github
 
 var connection = io(link); //need to include LINK within io()...
 

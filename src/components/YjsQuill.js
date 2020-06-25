@@ -12,7 +12,7 @@ var io = Y["websockets-client"].io; //need to get this.....
 
 // var link = 'http://localhost:1234' //when running textedit-app-yjs-websockets-server locally
 // var link = 'http://localhost:5000' //when running `heroku local web`
-var link = "http://localhost:1234"; //this link is set in my .env file, which is hidden from github
+var link = "https://codemirror-beck.herokuapp.com/"; //this link is set in my .env file, which is hidden from github
 
 // create a connection
 var connection = io(link); //need to include LINK within io()...
